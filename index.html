@@ -82,7 +82,48 @@
     });
 });
        </script>
-    
+    <script>
+  
+  $(function () {
+    Highcharts.chart('container', {
+   
+        colors: ['#c7e3d4','#6a9da1','#476983'],
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'Heating Temperature'
+        },
+        subtitle: {
+            text: 'New York'
+        },
+        xAxis: {
+            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+        },
+        yAxis: {
+            title: {
+                text: 'Temperature (°C)'
+            }
+        },
+        plotOptions: {
+            line: {
+                dataLabels: {
+                    enabled: true
+                },
+                enableMouseTracking: false
+            }
+        },
+        series: [{
+            name: 'Central Park',
+            data: [5.77, 4.88, 3.89, 2.08, 6.9, 0, 0, 0, 1.8, 1.38, 2.9, 4.88]
+        }, {
+           
+        }]
+    });
+});
+  
+   </script>
+  
 <h3>
 <a id="Working with the community" class="anchor" href="#Working with the community" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Working with the community</h3>
 
