@@ -96,28 +96,54 @@
 
 <p>(HERE WILL BE THE MAP OF THE MOST AFFECTED AREAS IN THE ROCKAWAYS)</p>
 
-      <h5>Terms</h5>
+      <h5>testing</h5>
                         <div class="left-align">
-                            <p class="fragment"><strong><a href="https://en.wikipedia.org/wiki/Integrated_development_environment">IDE</a></strong>: Integrated Development Environment - Software meant to support the entire development process, often including compilation for a server-side language</p>
-                            <p class="fragment"><strong><a href="https://en.wikipedia.org/wiki/Content_management_system">CMS</a></strong>: Content Management System - A program that allows publishing, editing, and modifying content as well as maintenance from a central interface</p>
-                            <p class="fragment"><strong><a href="https://en.wikipedia.org/wiki/Open_source">Open source</a></strong>: A program in which the source code is available to the general public for use and/or modification from its original design</p>
-                        </div>
-                        <aside class="notes">
-                            <ul>
-                                <li>IDE - Visual Studio, Eclipse, Xcode</li>
-                                <li>CMS - (Web CMS) Wordpress, Drupal. (Enterprise-level) Interwoven</li>
-                                <li>Open source - Perl, Python, PHP, jQuery. Mention derivative works also being open source.</li>
-                            </ul>
-                        </aside>
-                    </section>
+                         <script> 
+                          $(function() {
+  Highcharts.chart('container', {
+    font: ['Avenir'],
+    colors: ['#c7e3d4', '#6a9da1', '#476983'],
+    chart: {
+      type: 'line'
+    },
+    title: {
+      text: 'Heating Temperature'
+    },
+    subtitle: {
+      text: 'New York'
+    },
+    xAxis: {
+      categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    },
+    yAxis: {
+      title: {
+        text: 'Temperature (°C)'
+      }
+    },
+    plotOptions: {
+      line: {
+        dataLabels: {
+          enabled: true
+        },
+        enableMouseTracking: false
+      }
+    },
+    series: [{
+      name: 'Central Park',
+      data: [5.77, 4.88, 3.89, 2.08, 6.9, 0, 0, 0, 1.8, 1.38, 2.9, 4.88]
+    }, {
+      name: 'JFK, Queens County',
+      data: [5.82, 4.99, 4.13, 2.41, 9.8, 5, 0, 0, 2.1, 1.45, 2.96, 4.88]
+    }, {
+      name: 'La Guardia, Queens County',
+      data: [5.8, 4.94, 4.05, 2.25, 8, 4, 0, 0, 1.6, 1.4, 2.93, 4.8]
+    }]
+  });
+});
 
-                    <section>
-                        <div class="left-align">
-                            <p class="fragment"><strong><a href="https://en.wikipedia.org/wiki/Application_programming_interface">API</a></strong>: Application Programming Interface - An easy-to-use interface or set of tools made available to access a complex application</p>
-                            <p class="fragment"><strong><a href="https://en.wikipedia.org/wiki/IP_address">IP Address</a></strong>: Internet Protocol Address - A unique address for a computer or a server. Some IP Addresses are only unique to the network they are on while others are completely unique</p>
-                            <p class="fragment"><strong><a target="_blank" href="https://en.wikipedia.org/wiki/Domain_Name_System">DNS</a></strong>: Domain Name Service - A directory that associates domain names with host IPs to allow users to connect to web sites via URLs</p>
+
                         </div>
-                      
+                      </script>
 <p>Thesis Project <code>&lt;a&gt;</code> 
 <h3>
 <a id="School of Visual Arts" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
