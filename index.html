@@ -42,7 +42,7 @@
         <script>      
        $(function () {
     Highcharts.chart('container', {
-   
+    		font: ['Avenir'],
         colors: ['#c7e3d4','#6a9da1','#476983'],
         chart: {
             type: 'line'
@@ -96,47 +96,6 @@
 
 <p>(HERE WILL BE THE MAP OF THE MOST AFFECTED AREAS IN THE ROCKAWAYS)</p>
 
-       <script>
-  
-  $(function () {
-    Highcharts.chart('container', {
-   
-        colors: ['#c7e3d4','#6a9da1','#476983'],
-        chart: {
-            type: 'line'
-        },
-        title: {
-            text: 'Heating Temperature'
-        },
-        subtitle: {
-            text: 'New York'
-        },
-        xAxis: {
-            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-        },
-        yAxis: {
-            title: {
-                text: 'Temperature (°C)'
-            }
-        },
-        plotOptions: {
-            line: {
-                dataLabels: {
-                    enabled: true
-                },
-                enableMouseTracking: false
-            }
-        },
-        series: [{
-            name: 'Central Park',
-            data: [5.77, 4.88, 3.89, 2.08, 6.9, 0, 0, 0, 1.8, 1.38, 2.9, 4.88]
-        }, {
-           
-        }]
-    });
-});
-  
-   </script>
       
 <p>Thesis Project <code>&lt;a&gt;</code> 
 <h3>
