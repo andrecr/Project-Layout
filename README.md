@@ -18,8 +18,11 @@ At the beginning, when I was creating the style guide and choosing visualization
 For our thesis, we are currently working in Rockaways, a peninsula located in the southern part of Queens. Because of this, I chose 2 areas nearby this zone and one in Manhattan to compare:
 
 **1.** Central Park
+
 **2.** JFK, Queens (this is the area where Rockaway is located)
+
 **3.** La Guardia, Queens
+
 
 So this is the first step of a series of infographic that will build up the topic of sea level rise as consequence of climate change
 
