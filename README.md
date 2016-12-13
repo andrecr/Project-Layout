@@ -10,7 +10,7 @@ The final objective is to create a **tool** to communicate how drastic the weath
 
 ##Demo link
 
-https://andrecr.github.io/Project-Layout/
+[Link](https://andrecr.github.io/Project-Layout/)
 
 ##Project Procedure
 At the beginning, when I was creating the style guide and choosing visualizations,  I wanted to create a whole website that guides you through the narrative by charts, maps, and connections between each other.  So, I divided this into three parts and I decided to start from general data about climate change: Heating temperature in New York.
